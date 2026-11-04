@@ -1,0 +1,10 @@
+# Questa / ModelSim output
+work/
+*.wlf
+transcript
+modelsim.ini
+*.mpf
+*.cr.mti
+*.mti
+vsim.wlf
+vish_stacktrace.vstf
