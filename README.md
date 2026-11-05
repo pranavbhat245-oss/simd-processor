@@ -1,4 +1,4 @@
-# 4-Lane SIMD Processor with a UVM Verification Environment
+## 4-Lane SIMD Processor with a UVM Verification Environment
 
 A GPU-inspired 4-lane SIMD datapath in Verilog, verified with a self-checking
 testbench and a UVM environment in Questa (Intel FPGA Starter Edition).
@@ -72,7 +72,7 @@ Keep the `.svh` files in the same folder as `simd_pkg.sv`; it includes them.
 
 ## Limitations
 
-- Starter Edition has no licence for constrained-random (`randomize()`) or
+- Starter Edition has no license for constrained-random (`randomize()`) or
   covergroups. Stimulus uses `$urandom`, and functional coverage is implemented
   with hand-written counter bins. The structure follows UVM practice, but this
   is not true constrained-random verification.
